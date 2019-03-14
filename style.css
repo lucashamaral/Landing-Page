@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+
+body {
+    font-family: Open Sans !important;
+}
+
+.btn {
+    border-radius: 50px !important;
+}
+
+.bg {
+    background: #fff;
+    width: 100%;
+    height: 70px;
+    display: none;
+    box-shadow: 0px 0px 10px #c5c5c5;
+
+}
+
+.show {
+    display: block;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+/* Smooth scroll */
+
+
+body {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+.destination {
+	position:absolute;
+	left:0;
+	margin-top:-100px;/* height of nav*/
+}
+
+
+
+/* Navbar */
+
+.navbar {
+    top: 12%;
+}
+
+.navbar h1 {
+    font-weight: bold;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+li {
+    float: left;
+    list-style: none;
+    margin: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #000;
+}
+
+.texto {
+    margin-top: 1800px;
+}
+
+/* Navbar regular */
+
+.navbar-regular {}
+
+.navbar-regular li {
+    letter-spacing: 0px;
+}
+
+.navbar-regular a {
+    color: #fff;
+}
+
+/* Navbar fade */
+
+.navbar-fade {
+    top: 0;
+}
+
+.navbar-fade a {
+    color: #666;
+}
+
+.navbar-fade li {
+    letter-spacing: 0px;
+}
+
+
+
+/* Header */
+
+.header {
+    background-color: #000;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url('../images/street.png');
+    height: 1080px;
+    /* display: grid; */
+}
+
+/* Banner content */
+
+.banner-content {
+    color: #fff;
+    margin-top: 16rem;
+}
+
+.banner-content p:nth-child(1) {
+    color: #fff;
+    font-size: 6rem;
+    font-weight: 600;
+    height: 105px;
+}
+
+.banner-content p:nth-child(2) {
+    margin-bottom: 2rem !important;
+}
+
+.banner-content i {
+    margin-top: 3rem;
+}
+
+.banner-content p {
+    font-size: 28px;
+    font-weight: lighter;
+}
+
+
+.btn-banner {
+    padding: 0.6rem 3rem 0.5rem !important;
+    font-size: 18px !important;
+    text-transform: uppercase;
+}
+
+.banner-content i {
+    font-size: 45px;
+}
+
+/* Solutions */
+
+.solution-area {
+    margin: 6.25rem auto;
+}
+
+.solution-area i {
+    color: #ff631e;
+}
+
+
+/* Cards */
+
+
+
+.card-img-top {
+    transition: all 0.3s ease-in-out;
+}
+
+.card-img-top:hover {
+    transform: scale(1.2);
+}
+
+.card-img-box {
+    width: 360px;
+    height: 197px;
+    overflow: hidden;
+}
+
+/* Products */
+
+.products img {
+    width: 100%;
+    height: 100%;
+}
+
+.img-products {
+    padding: 0px !important;
+}
+
+/* Testimonial e About */
+
+/* Testimonial */
+
+.first-line-testimonial-left {
+    background-image: url('../images/testimonials-background.jpg');
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* About */
+
+.first-line-about-right {
+    background-image: url('../images/about-background.jpg');
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Contact Form */
+
+.contact-form form input {
+    width: 177px;
+}
+
+/* .form-control {
+    display: inline-block !important;
+} */
